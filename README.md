@@ -1,6 +1,8 @@
 # Gruvbox colorscheme for tmux
 
-Retro groove colorscheme for [tmux](https://github.com/tmux/tmux), based on the excellent [gruvbox](https://github.com/morhetz/gruvbox) theme for Vim.
+Retro groove colorscheme for [tmux](https://github.com/tmux/tmux), based on the excellent [gruvbox](https://github.com/morhetz/gruvbox) theme for vim.
+
+<img src="scrot.png" style="width: 100%; max-width: 600px; text-align: center;"/>
 
 This is a heavily modified fork of [tmux-gruvbox](https://github.com/egel/tmux-gruvbox).
 
