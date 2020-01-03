@@ -35,8 +35,3 @@ set-option -as terminal-overrides ",xterm*:RGB"
 
 ### Pane separator lines look weird
 Something isn't correctly handling UTF-8 line drawing characters.
-
-### The statusbar's time doesn't update fast enough
-```tmux
-set-option -g status-interval 1
-```
