@@ -25,3 +25,18 @@ Add this repo to the list of [TPM](https://github.com/tmux-plugins/tpm) plugins 
 set -g @plugin 'lawabidingcactus/tmux-gruvbox-truecolor'
 ```
 Press `<prefix> + I` to reload tmux with the plugin.
+
+## Troubleshooting
+### tmux's colors look weird
+Try adding the following to your `.tmux.conf`:
+```tmux
+set-option -as terminal-overrides ",xterm*:RGB"
+```
+
+### Pane separator lines look weird
+Something isn't correctly handling UTF-8 line drawing characters.
+
+### The statusbar's time doesn't update fast enough
+```tmux
+set-option -g status-interval 1
+```
