@@ -19,6 +19,10 @@ Just clone this repo and add `tmux-colorscheme.conf` to your `.tmux.conf`:
 ```bash
 cat tmux-colorscheme.conf >> ~/.tmux.conf
 ```
+Or move `tmux-colorscheme.conf` to your home directory and source it in `.tmux.conf`:
+```tmux
+source-file ~/tmux-colorscheme.conf
+```
 ### Tmux Plugin Manager
 Add this repo to the list of [TPM](https://github.com/tmux-plugins/tpm) plugins in your `.tmux.conf`:
 ```tmux
