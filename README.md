@@ -2,14 +2,14 @@
 
 Retro groove colorscheme for [tmux](https://github.com/tmux/tmux), based on the excellent [gruvbox](https://github.com/morhetz/gruvbox) theme for vim.
 
-<img src="scrot.png" style="width: 100%; max-width: 600px; text-align: center;"/>
+<img src="https://i.imgur.com/6IQCia6.png" style="width: 100%; max-width: 600px; text-align: center;"/>
 
 This is a heavily modified fork of [tmux-gruvbox](https://github.com/egel/tmux-gruvbox).
 
 Features/Differences:
 - Uses gruvbox's hexadecimal colors (most terminal emulators have truecolor support)
 - Indicates when the prefix key has been pressed
-- If vi-mode is enabled (if `$EDITOR` contains `vim`), the statusbar will indicate its mode while being edited
+- If vi-mode is enabled (if `$EDITOR` contains `vi`), the statusbar will indicate its mode while being edited
 - Highlights unfocused windows with activity or terminal bells
 - Does not use custom glyphs
 
