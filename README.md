@@ -28,6 +28,12 @@ Add this repo to the list of [TPM](https://github.com/tmux-plugins/tpm) plugins 
 ```tmux
 set -g @plugin 'lawabidingcactus/tmux-gruvbox-truecolor'
 ```
+
+to show current diretory name instead of program name add
+```tmux
+setenv -g SHOW_DIRECTORY_NAME 1
+```
+
 Press `<prefix> + I` to reload tmux with the plugin.
 
 ## Troubleshooting
